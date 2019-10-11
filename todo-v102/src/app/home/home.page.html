@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title>
+      Bryce's lab 6 (todo v1.02)
+    </ion-title>
+    <ion-button>
+      <ion-icon slot="icon:)" name="add"></ion-icon>
+      <ion-title> add </ion-title>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+<!--the header is the element, while the toolbar
+is what goes on the element, buttons go on top
+of that-->
+
+
+<ion-content>
+  <div class="ion-padding">
+    for cs262, Team B (Calvin Dating App)
+    <p>Explored videos 5/6 on html design/interfaces.</p>
+    <p>built on the code/files from previous lab.</p>
+    <p>explore on my github to view the added files/folders/code.</p>
+
+  </div>
+  <ion-list> 
+    <ion-item *ngFor="let todo of todoService.todos">
+      {{todo.title}}
+    </ion-item>
+  </ion-list>
+</ion-content>
