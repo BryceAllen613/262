@@ -1,2 +1,2 @@
-This sample Monopoly database and set of queries is used in Calvin College
-CS 262 [lab 7](https://cs.calvin.edu/courses/cs/262/kvlinden/07is/lab.html).
+For lab 8, I copied over the files I made for lab 07, made some edits, and also made a new file that contained the 
+queries I made for the lab (lab07-monopoly-queries.sql).
