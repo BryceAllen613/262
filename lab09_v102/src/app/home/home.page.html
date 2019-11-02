@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title>
+      Bryce's lab 9 (todo v1.03)
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<!--the header is the element, while the toolbar
+is what goes on the element, buttons go on top
+of that-->
+
+
+<ion-content padding>
+    for cs262, Team B (Calvin Dating App)
+    <p>Explored videos 7 through 10 on storage</p>
+    <p>built on the code/files from previous lab.</p>
+    <p>explore on my github to view the added files/code.</p>
+  <ion-list> 
+    <ion-item *ngFor="let todo of todoService.todos">
+      {{todo.title}}
+    </ion-item>
+ 
+    <ion-input [(ngModel)]="v1" inputmode="text" ></ion-input>
+
+    <ion-item>
+      <ion-button (click)="addTodo()" >Add Todo</ion-button>
+    </ion-item>
+
+      <ion-button (click)="getTodo()">Display Todo</ion-button>
+      {{result}}
+
+  </ion-list>
+</ion-content>
