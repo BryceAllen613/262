@@ -1,0 +1,6 @@
+Exercise 11.1
+For our homeworks, labs, project etc. we have been using ts.lint to help us preserve
+formatting consistency. Professor Vander-linden told us this is okay since we are using 
+vscode and it ts.lint automatically gives us warnings when a potential bug or 
+formatting inconsistency arises. 
+
